@@ -1,0 +1,1 @@
+An image gallery created to practice css grid.
