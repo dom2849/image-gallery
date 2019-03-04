@@ -1,5 +1,31 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: #f4f4f4;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 0 2rem 2rem 2rem;
+    margin: 0 auto;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 30vh;
+    grid-gap: 2rem;
 }
